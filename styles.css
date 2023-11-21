@@ -27,14 +27,35 @@ p {
     font-size: 0.8em;
 }
 
-.guitar_images {
+.guitar_info {
     display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
+    justify-content: space-between;
+    margin: 20px; 
 }
 
-.guitar_images img {
-    width: 500px; 
-    height: auto; 
-    margin-bottom: 100px; 
+.guitar_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+.guitar_item img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.info {
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
