@@ -26,3 +26,15 @@ p {
     margin-top: 5px;
     font-size: 0.8em;
 }
+
+.guitar_images {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.guitar_images img {
+    width: 500px; 
+    height: auto; 
+    margin-bottom: 100px; 
+}
